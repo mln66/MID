@@ -1,4 +1,4 @@
-# Meta Invariance Defense
+﻿# Meta Invariance Defense
 ## 运行环境
 - pytorch 0.4.1
 - python 3.6
@@ -22,4 +22,6 @@ dd&|姓名   | 年龄 |  工作 |
 | 小小小机智 |  22  | 看一本机智书 |&
 
 $$\(\sqrt{3x-1}+(1+x)^2\)$$  
+
+6666
 
