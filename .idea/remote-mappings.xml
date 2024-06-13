@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteMappingsManager">
+    <list>
+      <list>
+        <remote-mappings server-id="python@sftp://dl@172.20.37.36:22/media/dl/164c1aa7-6fd5-40da-ad51-7c53bfbbd9bc/anaconda3/envs/zyhhh/bin/python3.6">
+          <settings>
+            <list>
+              <mapping local-root="$PROJECT_DIR$" remote-root="/media/dl/25a5b9b0-9c59-446d-a02f-81759393ee65/zyhhh/project/GAN_mnist" />
+            </list>
+          </settings>
+        </remote-mappings>
+        <remote-mappings server-id="python@sftp://dl@172.20.37.36:22/media/dl/164c1aa7-6fd5-40da-ad51-7c53bfbbd9bc/anaconda3/envs/xmj/bin/python3.6">
+          <settings>
+            <list>
+              <mapping local-root="$PROJECT_DIR$" remote-root="/media/dl/25a5b9b0-9c59-446d-a02f-81759393ee65/zyhhh/project/GAN_mnist" />
+            </list>
+          </settings>
+        </remote-mappings>
+        <remote-mappings server-id="python@sftp://dl@172.20.37.36:22/media/dl/164c1aa7-6fd5-40da-ad51-7c53bfbbd9bc/anaconda3/envs/zyhhh2/bin/python3.6">
+          <settings>
+            <list>
+              <mapping local-root="$PROJECT_DIR$" remote-root="/media/dl/25a5b9b0-9c59-446d-a02f-81759393ee65/zyhhh/project/Meta_defense" />
+            </list>
+          </settings>
+        </remote-mappings>
+        <remote-mappings server-id="python@sftp://dl@172.20.37.36:22/media/dl/164c1aa7-6fd5-40da-ad51-7c53bfbbd9bc/anaconda3/envs/zyhhh3/bin/python3.6">
+          <settings>
+            <list>
+              <mapping local-root="$PROJECT_DIR$" remote-root="/media/dl/25a5b9b0-9c59-446d-a02f-81759393ee65/zyhhh/project/Meta_defense" />
+            </list>
+          </settings>
+        </remote-mappings>
+        <remote-mappings server-id="python@sshConfig://dl@172.20.37.36:22 password/media/dl/164c1aa7-6fd5-40da-ad51-7c53bfbbd9bc/anaconda3/envs/zyhhh3/bin/python3.6">
+          <settings>
+            <list>
+              <mapping local-root="$PROJECT_DIR$" remote-root="/media/dl/25a5b9b0-9c59-446d-a02f-81759393ee651/zyhhh/project/Meta_defense" />
+            </list>
+          </settings>
+        </remote-mappings>
+        <remote-mappings server-id="python@sftp://dl@172.20.37.36:22/media/dl/164c1aa7-6fd5-40da-ad51-7c53bfbbd9bc/anaconda3/envs/zyhhh4/bin/python3.6">
+          <settings>
+            <list>
+              <mapping local-root="$PROJECT_DIR$" remote-root="/media/dl/25a5b9b0-9c59-446d-a02f-81759393ee65/zyhhh/project/Meta_defense" />
+            </list>
+          </settings>
+        </remote-mappings>
+      </list>
+    </list>
+  </component>
+</project>
