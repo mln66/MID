@@ -10,8 +10,8 @@ This is the official project page of the paper "Meta Invariance Defense Towards 
 - cuda 8.0
 
 ## Program Running
-1. The normal train module in Training_MNIST.py is used to train a baseline model (target model)
-2. The teacher model training module in Training-MNIST.py is used to train the teacher module, including an encoder, a decoder, and a classifier
+1. The normal train module in Training_MNIST.py is used to train a baseline model (target model).
+2. The teacher model training module in Training-MNIST.py is used to train the teacher module, including an encoder, a decoder, and a classifier.
 3. The main runtime module of MID is meta-depense-MNIST_cls_simi_cyc.py, which needs to be run with the teacher model and target model ready.
 
 ## Model weights
