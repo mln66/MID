@@ -1,27 +1,33 @@
-﻿# Meta Invariance Defense
-## 运行环境
+﻿# Meta Invariance Defense Towards Generalizable Robustness to Unknown Adversarial Attacks
+
+## Describe
+This is the official project page of the paper "Meta Invariance Defense Towards Generalizable Robustness to Unknown Adversarial Attacks" TPAMI 2024.
+(https://arxiv.org/abs/2404.03340)
+## Running enviroment
 - pytorch 0.4.1
 - python 3.6
 - advertorch 
 - cuda 8.0
 
-    
+## Program Running
+1. The normal train module in Training_MNIST.py is used to train a baseline model (target model)
+2. The teacher model training module in Training-MNIST.py is used to train the teacher module, including an encoder, a decoder, and a classifier
+3. The main runtime module of MID is meta-depense-MNIST_cls_simi_cyc.py, which needs to be run with the teacher model and target model ready.
 
-## 程序运行
-1. Training_MNIST.py中的normal train模块用于训练一个baseline模型（目标模型）
-2. Training_MNIST.py中的教师模型训练模块用于训练教师模块，包括一个编码器，一个解码器和一个分类器
-3. meta_defense_MNIST_cls_simi_cyc.py为MID的主要运行模块，需要在准备好教师模型和目标模型的前提下运行。
+## Model weights
+We have provided model weights on the mnist dataset, which are saved in the saving models folder. You can directly load these models for testing.
+1. The weight of the target model is ./revision/MNIST_LeNet5.pkl.
+2. The weight of the teacher's network is LeNet5_MINIST_AE.pkl. 
+3. The weight of the MID training model is ./final_models/encoder_adv_addclean_MNIST_cls_simi_cyc217.pkl.  
+If you want to run other datasets, you can modify the dataset loading based on the code.
 
-
-# MNIST运行结果
-
-dd&|姓名   | 年龄 |  工作 |
-| :----- | :--: | -------: |
-| 小可爱 |  18  | 吃可爱多 |
-| 小小勇敢 |  20  | 爬棵勇敢树 |
-| 小小小机智 |  22  | 看一本机智书 |&
-
-$$\(\sqrt{3x-1}+(1+x)^2\)$$  
-
-6666
-
+## Citation
+If you find this code useful in your research then please cite
+~~~
+@article{zhang2024meta,
+  title={Meta Invariance Defense Towards Generalizable Robustness to Unknown Adversarial Attacks},
+  author={Zhang, Lei and Zhou, Yuhang and Yang, Yi and Gao, Xinbo},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year={2024},
+  publisher={IEEE}
+}
