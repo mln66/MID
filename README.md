@@ -34,5 +34,5 @@ If you find this code useful in your research then please cite
 ~~~
 ## Contact
 If you have any problem about our code, feel free to contact us.
-* Yuhang Zhou (23B951015@stu.edu.hit.cn)  
+* Yuhang Zhou (23B951015@stu.hit.edu.cn)  
 * Lei Zhang (leizhang@cqu.edu.cn)
